@@ -76,7 +76,7 @@ html,body{
     }  
     .container{
         background-color: hsl(0, 0%, 12%);
-        width: 400px;
+        width: 300px;
         height: auto;
         padding: 30px;
         border-radius:10px;
