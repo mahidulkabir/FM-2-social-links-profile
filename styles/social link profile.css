@@ -9,50 +9,79 @@ html,body{
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: auto;
 }   
 .container{
     background-color: hsl(0, 0%, 12%);
-    
     width: 400px;
     height: auto;
+    padding: 30px;
+    border-radius:10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.pic{
+    display: flex;
+    justify-content: center;
+}
+.pic img{
+    width: 100px;
+    border-radius:50%
+}
+.name{
+    color: hsla(0, 0%, 100%, 0.849);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: -2px;
+}
+.address{
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    font-weight: 600;
+    font-size: 17x;
+}
+.about{
+    color: hsla(0, 0%, 100%, 0.658);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
 }
 
+.item{
+    color: hsla(0, 0%, 100%, 0.836);
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 0;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    font-weight: 600;
+}
+.item:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    font-weight: 600;
+}
 
+.attribution { font-size: 11px; text-align: center; color:hsl(228, 15%, 80%);margin-top: 20px ;}
+.attribution a { color: hsl(229, 10%, 67%);}
+@media screen and (max-width:640px) {
+    .main{
+        display: flex;
+        justify-content: center;
+        
+    }  
+    .container{
+        background-color: hsl(0, 0%, 12%);
+        width: 400px;
+        height: auto;
+        padding: 30px;
+        border-radius:10px;
+        margin:80px 20px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+        
+    }
+}
